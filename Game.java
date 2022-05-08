@@ -24,8 +24,8 @@ public class Game extends JPanel implements KeyListener, ActionListener {
 
     private int ballposX = 300;
     private int ballposY = 300;
-    private int ballXdir = -1;
-    private int ballYdir = -2;
+    private int ballXdir = -4;
+    private int ballYdir = -4;
 
     public Game() {
         addKeyListener(this);
